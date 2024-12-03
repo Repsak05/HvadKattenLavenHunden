@@ -1,0 +1,652 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 61.3659934997559,
+                "tag": {
+                    "en": "food"
+                }
+            },
+            {
+                "confidence": 50.957405090332,
+                "tag": {
+                    "en": "vegetable"
+                }
+            },
+            {
+                "confidence": 45.3191223144531,
+                "tag": {
+                    "en": "meal"
+                }
+            },
+            {
+                "confidence": 36.677619934082,
+                "tag": {
+                    "en": "edible nut"
+                }
+            },
+            {
+                "confidence": 35.5894584655762,
+                "tag": {
+                    "en": "nut"
+                }
+            },
+            {
+                "confidence": 35.2464027404785,
+                "tag": {
+                    "en": "walnut"
+                }
+            },
+            {
+                "confidence": 33.7508773803711,
+                "tag": {
+                    "en": "dinner"
+                }
+            },
+            {
+                "confidence": 33.6504287719727,
+                "tag": {
+                    "en": "legume"
+                }
+            },
+            {
+                "confidence": 30.5236396789551,
+                "tag": {
+                    "en": "dish"
+                }
+            },
+            {
+                "confidence": 30.2760677337646,
+                "tag": {
+                    "en": "bowl"
+                }
+            },
+            {
+                "confidence": 30.1853179931641,
+                "tag": {
+                    "en": "cuisine"
+                }
+            },
+            {
+                "confidence": 27.3638725280762,
+                "tag": {
+                    "en": "plate"
+                }
+            },
+            {
+                "confidence": 26.390962600708,
+                "tag": {
+                    "en": "seed"
+                }
+            },
+            {
+                "confidence": 25.8712158203125,
+                "tag": {
+                    "en": "healthy"
+                }
+            },
+            {
+                "confidence": 24.6199169158936,
+                "tag": {
+                    "en": "fruit"
+                }
+            },
+            {
+                "confidence": 23.9838714599609,
+                "tag": {
+                    "en": "delicious"
+                }
+            },
+            {
+                "confidence": 23.4470806121826,
+                "tag": {
+                    "en": "meat"
+                }
+            },
+            {
+                "confidence": 22.3353824615479,
+                "tag": {
+                    "en": "produce"
+                }
+            },
+            {
+                "confidence": 21.0441150665283,
+                "tag": {
+                    "en": "lunch"
+                }
+            },
+            {
+                "confidence": 21.0119495391846,
+                "tag": {
+                    "en": "nutrition"
+                }
+            },
+            {
+                "confidence": 20.1217041015625,
+                "tag": {
+                    "en": "cooking"
+                }
+            },
+            {
+                "confidence": 19.7997531890869,
+                "tag": {
+                    "en": "diet"
+                }
+            },
+            {
+                "confidence": 19.4376621246338,
+                "tag": {
+                    "en": "close"
+                }
+            },
+            {
+                "confidence": 19.3769340515137,
+                "tag": {
+                    "en": "eating"
+                }
+            },
+            {
+                "confidence": 19.1475200653076,
+                "tag": {
+                    "en": "vegetables"
+                }
+            },
+            {
+                "confidence": 19.0594100952148,
+                "tag": {
+                    "en": "herb"
+                }
+            },
+            {
+                "confidence": 18.6973419189453,
+                "tag": {
+                    "en": "gourmet"
+                }
+            },
+            {
+                "confidence": 18.501335144043,
+                "tag": {
+                    "en": "ingredient"
+                }
+            },
+            {
+                "confidence": 18.0942974090576,
+                "tag": {
+                    "en": "breakfast"
+                }
+            },
+            {
+                "confidence": 18.0441799163818,
+                "tag": {
+                    "en": "pepper"
+                }
+            },
+            {
+                "confidence": 17.7135696411133,
+                "tag": {
+                    "en": "lentil"
+                }
+            },
+            {
+                "confidence": 16.9770221710205,
+                "tag": {
+                    "en": "cooked"
+                }
+            },
+            {
+                "confidence": 16.9593677520752,
+                "tag": {
+                    "en": "brown"
+                }
+            },
+            {
+                "confidence": 16.8015594482422,
+                "tag": {
+                    "en": "eat"
+                }
+            },
+            {
+                "confidence": 16.1214790344238,
+                "tag": {
+                    "en": "vegetarian"
+                }
+            },
+            {
+                "confidence": 15.955039024353,
+                "tag": {
+                    "en": "spoon"
+                }
+            },
+            {
+                "confidence": 15.907395362854,
+                "tag": {
+                    "en": "tasty"
+                }
+            },
+            {
+                "confidence": 15.5147819519043,
+                "tag": {
+                    "en": "beans"
+                }
+            },
+            {
+                "confidence": 15.4549875259399,
+                "tag": {
+                    "en": "dried"
+                }
+            },
+            {
+                "confidence": 14.8776588439941,
+                "tag": {
+                    "en": "dry"
+                }
+            },
+            {
+                "confidence": 14.6594638824463,
+                "tag": {
+                    "en": "cook"
+                }
+            },
+            {
+                "confidence": 14.5488605499268,
+                "tag": {
+                    "en": "snack"
+                }
+            },
+            {
+                "confidence": 14.0439233779907,
+                "tag": {
+                    "en": "sauce"
+                }
+            },
+            {
+                "confidence": 13.9173545837402,
+                "tag": {
+                    "en": "health"
+                }
+            },
+            {
+                "confidence": 13.6348886489868,
+                "tag": {
+                    "en": "nuts"
+                }
+            },
+            {
+                "confidence": 13.5981550216675,
+                "tag": {
+                    "en": "chickpea"
+                }
+            },
+            {
+                "confidence": 13.4395389556885,
+                "tag": {
+                    "en": "fried"
+                }
+            },
+            {
+                "confidence": 12.9873876571655,
+                "tag": {
+                    "en": "taste"
+                }
+            },
+            {
+                "confidence": 12.6190452575684,
+                "tag": {
+                    "en": "organic"
+                }
+            },
+            {
+                "confidence": 12.232889175415,
+                "tag": {
+                    "en": "spice"
+                }
+            },
+            {
+                "confidence": 11.6604442596436,
+                "tag": {
+                    "en": "traditional"
+                }
+            },
+            {
+                "confidence": 11.1275415420532,
+                "tag": {
+                    "en": "garlic"
+                }
+            },
+            {
+                "confidence": 10.6113977432251,
+                "tag": {
+                    "en": "recipe"
+                }
+            },
+            {
+                "confidence": 10.5950326919556,
+                "tag": {
+                    "en": "herbs"
+                }
+            },
+            {
+                "confidence": 10.5232534408569,
+                "tag": {
+                    "en": "roasted"
+                }
+            },
+            {
+                "confidence": 10.4546613693237,
+                "tag": {
+                    "en": "beef"
+                }
+            },
+            {
+                "confidence": 10.2656679153442,
+                "tag": {
+                    "en": "rice"
+                }
+            },
+            {
+                "confidence": 10.1778964996338,
+                "tag": {
+                    "en": "nutriment"
+                }
+            },
+            {
+                "confidence": 10.0603456497192,
+                "tag": {
+                    "en": "hot"
+                }
+            },
+            {
+                "confidence": 10.0088586807251,
+                "tag": {
+                    "en": "carrot"
+                }
+            },
+            {
+                "confidence": 9.9784107208252,
+                "tag": {
+                    "en": "cashew"
+                }
+            },
+            {
+                "confidence": 9.94081115722656,
+                "tag": {
+                    "en": "salad"
+                }
+            },
+            {
+                "confidence": 9.86822700500488,
+                "tag": {
+                    "en": "appetizer"
+                }
+            },
+            {
+                "confidence": 9.82125568389893,
+                "tag": {
+                    "en": "fresh"
+                }
+            },
+            {
+                "confidence": 9.73197460174561,
+                "tag": {
+                    "en": "parsley"
+                }
+            },
+            {
+                "confidence": 9.62387752532959,
+                "tag": {
+                    "en": "spicy"
+                }
+            },
+            {
+                "confidence": 9.60325717926025,
+                "tag": {
+                    "en": "stew"
+                }
+            },
+            {
+                "confidence": 9.56735038757324,
+                "tag": {
+                    "en": "ingredients"
+                }
+            },
+            {
+                "confidence": 9.50112915039062,
+                "tag": {
+                    "en": "restaurant"
+                }
+            },
+            {
+                "confidence": 9.38285160064697,
+                "tag": {
+                    "en": "natural"
+                }
+            },
+            {
+                "confidence": 9.26641082763672,
+                "tag": {
+                    "en": "mushroom"
+                }
+            },
+            {
+                "confidence": 9.22877216339111,
+                "tag": {
+                    "en": "horizontal"
+                }
+            },
+            {
+                "confidence": 9.14826965332031,
+                "tag": {
+                    "en": "tomato"
+                }
+            },
+            {
+                "confidence": 8.95908260345459,
+                "tag": {
+                    "en": "kitchen"
+                }
+            },
+            {
+                "confidence": 8.95765209197998,
+                "tag": {
+                    "en": "peanut"
+                }
+            },
+            {
+                "confidence": 8.83279418945312,
+                "tag": {
+                    "en": "bean"
+                }
+            },
+            {
+                "confidence": 8.82008838653564,
+                "tag": {
+                    "en": "peas"
+                }
+            },
+            {
+                "confidence": 8.8178129196167,
+                "tag": {
+                    "en": "no people"
+                }
+            },
+            {
+                "confidence": 8.77797031402588,
+                "tag": {
+                    "en": "foods"
+                }
+            },
+            {
+                "confidence": 8.77195835113525,
+                "tag": {
+                    "en": "closeup"
+                }
+            },
+            {
+                "confidence": 8.76990604400635,
+                "tag": {
+                    "en": "spices"
+                }
+            },
+            {
+                "confidence": 8.74090766906738,
+                "tag": {
+                    "en": "basil"
+                }
+            },
+            {
+                "confidence": 8.63126277923584,
+                "tag": {
+                    "en": "pork"
+                }
+            },
+            {
+                "confidence": 8.54562091827393,
+                "tag": {
+                    "en": "supper"
+                }
+            },
+            {
+                "confidence": 8.4622220993042,
+                "tag": {
+                    "en": "aroma"
+                }
+            },
+            {
+                "confidence": 8.45465183258057,
+                "tag": {
+                    "en": "pile"
+                }
+            },
+            {
+                "confidence": 8.31932830810547,
+                "tag": {
+                    "en": "olive"
+                }
+            },
+            {
+                "confidence": 8.19008159637451,
+                "tag": {
+                    "en": "bread"
+                }
+            },
+            {
+                "confidence": 8.10202598571777,
+                "tag": {
+                    "en": "onion"
+                }
+            },
+            {
+                "confidence": 7.91002941131592,
+                "tag": {
+                    "en": "pea"
+                }
+            },
+            {
+                "confidence": 7.87331295013428,
+                "tag": {
+                    "en": "vertical"
+                }
+            },
+            {
+                "confidence": 7.84630680084229,
+                "tag": {
+                    "en": "black-eyed pea"
+                }
+            },
+            {
+                "confidence": 7.82677698135376,
+                "tag": {
+                    "en": "cereal"
+                }
+            },
+            {
+                "confidence": 7.8008074760437,
+                "tag": {
+                    "en": "table"
+                }
+            },
+            {
+                "confidence": 7.78542900085449,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 7.75725936889648,
+                "tag": {
+                    "en": "potato"
+                }
+            },
+            {
+                "confidence": 7.74726247787476,
+                "tag": {
+                    "en": "serving"
+                }
+            },
+            {
+                "confidence": 7.73826551437378,
+                "tag": {
+                    "en": "salt"
+                }
+            },
+            {
+                "confidence": 7.64304733276367,
+                "tag": {
+                    "en": "chicken"
+                }
+            },
+            {
+                "confidence": 7.61304569244385,
+                "tag": {
+                    "en": "studio"
+                }
+            },
+            {
+                "confidence": 7.57045316696167,
+                "tag": {
+                    "en": "oriental"
+                }
+            },
+            {
+                "confidence": 7.51172065734863,
+                "tag": {
+                    "en": "baked"
+                }
+            },
+            {
+                "confidence": 7.50094556808472,
+                "tag": {
+                    "en": "freshness"
+                }
+            },
+            {
+                "confidence": 7.28239440917969,
+                "tag": {
+                    "en": "raisin"
+                }
+            },
+            {
+                "confidence": 7.10892534255981,
+                "tag": {
+                    "en": "garnish"
+                }
+            },
+            {
+                "confidence": 7.04130458831787,
+                "tag": {
+                    "en": "indoors"
+                }
+            },
+            {
+                "confidence": 7.01763677597046,
+                "tag": {
+                    "en": "glass"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

@@ -5,6 +5,10 @@ let pointValues = [];
 const imageWidth = 512;
 const imageHeight = 512;
 
+//Image offset of top left corner of canvas
+const offsetX = 50;
+const offsetY = 50;
+
 var YCenter, XCenter;
 var sideLength;
 
@@ -12,12 +16,14 @@ var north, east, south, west;
 
 async function setup() 
 {
-    createCanvas(1500, 1500);
+    createCanvas(imageWidth + 2*offsetX, imageHeight + 2 * offsetX);
     locations = await getGPSData();
-    // locations = locations.slice(0,3);
     
-    if(locations.length)
-    {
+    //TODO: The following to slices shows huge difference in placement
+    // locations = locations.slice(10,15);
+    // locations = locations.slice(9,15);
+    
+    if(locations.length){
         setCenterAndSideLength(locations);
     }
     
@@ -34,30 +40,30 @@ async function setup()
     // pointValues.push(convertToCanvasPosition(east, north));
 
     console.log("CORNER: " + south + ", " + west);
-    console.log("AnvertToCanvasPosition(south, west");
     console.log("sidelength", sideLength);
 
     for(let key in locations)
-        pointValues.push(convertToCanvasPosition(locations[key].field2, locations[key].field3));
+        pointValues.push(convertToCanvasPosition(parseFloat(locations[key].field2), parseFloat(locations[key].field3)));
 
 }
 
 function draw() 
 {
     background(220);
-    image(img1, 150, 150);
+    image(img1, offsetX, offsetY);
 
-    for(let i = 0; i < pointValues.length - 1; i++){
+    for(let i = 0; i < pointValues.length - 1; i++)
+    {
         let  cur = pointValues[i];
         let  next = pointValues[i+1];
 
-        line(150 + cur[0], 150 + cur[1], 150 +  next[0], 150 + next[1]);
+        line(offsetX + cur[0], offsetY + cur[1], offsetX + next[0], offsetY + next[1]);
     }
 
-    if (pointValues.length > 0)
-    {
-        for(let point of pointValues)
-            circle(150 + point[0], 150 + point[1], 5);
+    if (pointValues.length >= 1){
+        for(let point of pointValues){
+            circle(offsetX + point[0], offsetY + point[1], 5);
+        }
     }
 }
 
@@ -71,9 +77,9 @@ async function getGPSData()
         .then(data => {
         dataGPSpositions = data.feeds;
         })
-        .catch(err => console.error(err));
+        .catch(err => console.error("THIS IS AN ERROR FROM GET GPSDATA", err));
         
-    return dataGPSpositions;
+    return dataGPSpositions || [];
 }
 
 async function getImageOfMap()
@@ -93,7 +99,7 @@ function convertToCanvasPosition(x, y)
 
     // console.log("POINT:", x, y);
     // console.log("Y%: ", (y - south) / sideLength);
-    console.log(placementX, placementY)
+    console.log("palcmenetXY", placementX, placementY)
 
     // console.log("y", y, "\nsouth", south, "\nnorth", north);
 
@@ -102,31 +108,29 @@ function convertToCanvasPosition(x, y)
 
 function setCenterAndSideLength(locations = [])
 {
-    let minY = Infinity;
-    let maxY = -Infinity;
-
     let minX = Infinity;
     let maxX = -Infinity;
+
+    let minY = Infinity;
+    let maxY = -Infinity;
 
     for(let key in locations)
     {
         let location = locations[key];
-        let X = location.field2;
-        let Y = location.field3;
+        let X = parseFloat(location.field2);
+        let Y = parseFloat(location.field3);
+
+        minX = min(minX, X);
+        maxX = max(maxX, X);
 
         minY = min(minY, Y);
         maxY = max(maxY, Y);
-        
-        minX = min(minX, X);
-        maxX = max(maxX, X);
     }
 
-    sideLength = max(0.003, max(maxY - minY, maxX - minX) * 1.25);
+    sideLength = max(0.0012, max(maxY - minY, maxX - minX) * 1.25);
     XCenter = (maxX + minX) / 2;
     YCenter = (maxY + minY) / 2;
-
-    console.log(XCenter, YCenter);
-
+    
     west = XCenter - sideLength / 2;
     east = XCenter + sideLength / 2;
     south = YCenter - sideLength / 2;
