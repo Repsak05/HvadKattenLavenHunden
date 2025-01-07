@@ -1,6 +1,6 @@
 let classificationData = [];
 let dataPastTwentyFourHours = [];
-let timeActivityIsDone = [];
+let timeActivityIsDone = []
 
 const backgroundColor = 220;
 
@@ -14,6 +14,7 @@ async function setup()
   
     angleMode(RADIANS);
     textAlign(CENTER);
+
 }
 
 function draw() 
@@ -47,9 +48,9 @@ function theLastTwentyFourHours(data = classificationData)
 		const dataDate = new Date(data[i]["created_at"]);
 		const dataTag = data[i]["field1"];
 
-		const hoursDifference = (currentDate - dataDate) / (1000 * 60 * 60) - 59; //________remove -59 later 
+		const hoursDifference = (currentDate - dataDate) / (1000 * 60 * 60) - 59; // remove -59 later 
 		
-		if(hoursDifference <= 24)
+		if(hoursDifference <= 2400)
 		{
 			informationThisDate.push({date : dataDate, tag : dataTag});
 		}else{
@@ -105,6 +106,7 @@ function drawDonut(x, y, radius)
         activities.push(["outdoor", time]);
       else
         activities.push([activity, time]);
+
     }
   }
   
